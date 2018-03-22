@@ -1,0 +1,43 @@
+Git
+
+git status
+git add filename
+git config --global user.name pitcher0303
+git config --global user.email pitcher0303@gmail.com
+git commit --> vim 에서 버전 메시지 입력
+git log
+
+git log -p
+git에서 새로운 파일 생성시 버전관리 명령시 git add
+'' 이미 있는 파일이 수정 되고난 후 git add
+
+git diff 버전id..버전id
+
+과거버전 돌아가기
+reset vs revert
+
+git reset 버전id --hard
+
+명령의 빈도수
+command		google 		results	%
+commit		528,000		7.981980075
+push		523,000		7.906393143
+pull		506,000		7.649397572
+clone		489,000		7.392402002
+checkout	470,000		7.105171658
+add			446,000		6.742354382
+branch		439,000		6.636532676
+log			388,000		5.865545964
+diff		369,000		5.578315621
+fetch		355,000		5.36667221
+merge		354,000		5.351554823
+init		343,000		5.185263572
+status		286,000		4.323572541
+reset		267,000		4.036342197
+tag			246,000		3.718877081
+rebase		203,000		3.068829461
+rm			142,000		2.146668884
+show		104,000		1.572208197
+bisect		62,800		0.9493718726
+grep		49,400		0.7467988934
+mv			44,700		0.6757471768
